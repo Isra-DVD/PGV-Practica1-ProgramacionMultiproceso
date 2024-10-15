@@ -24,4 +24,15 @@ public class FileHelper {
 
         return lines;
     }
+
+    public static int counterSearchedWord(String line, String word) {
+        String[] lineWords = line.split(" ");
+        int tempCounter = 0;
+        for (String element : lineWords) {
+            if (element.contains(word)) {
+                tempCounter++;
+            }
+        }
+        return tempCounter;
+    }
 }
