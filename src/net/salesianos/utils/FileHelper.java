@@ -35,4 +35,14 @@ public class FileHelper {
         }
         return tempCounter;
     }
+
+    public static boolean isTheWord(String line, String word) {
+        String[] lineWords = line.split(" ");
+        for (String element : lineWords) {
+            if (element.contains(word)) {
+                return true;
+            }
+        }
+        return false;
+    }
 }
