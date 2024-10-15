@@ -1,0 +1,3 @@
+# Necesidad de la que surge el proyecto
+
+En esta práctica se ha desarrollado un programa encargado de buscar una palabra dentro de un fichero de texto. Para ello, se utilizan una serie de subprocesos, cada uno de ellos encargado de crear un fichero y de guardar dentro de este una cadena de caracteres específica. Por ejemplo, en caso de facilitar un fichero txt, con nombres y datos de usuarios, se podría utilizar este programa para poder localizar la línea en la que se encuentra la palabra en cuestión.
